@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: sandymockbox/node-app-test
+          images: sandymockbox/auth0-test-app
 
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5.1.0
